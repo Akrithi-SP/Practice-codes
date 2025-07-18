@@ -10,12 +10,11 @@ Code, Compile, Run and Debug online from anywhere in world.
 
 int main()
 {
-    for (int i =0;i<=3;i++)
+    for (int i = 0; i <= 3; i++)
     {
-        i=2*i;
-        i--;
-        printf("%d",i);
+        int temp = 2 * i - 1;
+        printf("%d ", temp);
     }
-
     return 0;
 }
+
