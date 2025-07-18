@@ -15,7 +15,7 @@ int main()
     char s[100],letter;
     int count=0;
     scanf("%s",&s);
-    scanf("%c",&letter);
+    scanf(" %c",&letter);
     for(int i=0;s[i]!='\0';i++)
     {
         if(s[i]==letter)
